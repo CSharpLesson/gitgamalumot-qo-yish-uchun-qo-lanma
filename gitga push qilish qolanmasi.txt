@@ -1,0 +1,19 @@
+1. git da proekt ochiladi 
+
+2. proektni papkasiga kirib cmd yoki git commandni ochib "git init" deb yoziladi.
+
+3.kegin .gitignore text fayl qilinadi va uni ichiga keremas faylarni tiqiladi
+C# uchun bitta misol qilib qo'yilgan
+
+4."git remote add origin https://github.com/CSharpLesson/a.git"  comanda yoziladi
+
+5. "git add ." deyiladi bu comanda git ignoreda yozilganladan tashqari hammasini tiqadi.
+
+6. ```git commit -m "comit yoziladi" ``` deyiladi 
+
+7."git branch -M main" shu comandalar yoziladi
+
+8."git push -u origin main"
+
+9. agar git proxsyda muamo bo'lsa "git config --global http.proxy http://172.17.9.31:8080" 
+"git config --global http.sslVerify false" shu comandalarni yoziladi.
